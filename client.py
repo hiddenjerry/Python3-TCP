@@ -15,6 +15,6 @@ print("Result from server is {}".format(result_string))
 
 import logging
 
-logging.basicConfig(level=logging.INFO, filename='file.log',					# log to this file (all data will be saved to this file)
-format='%(asctime)s %(message)s')                                				# include timestamp
+logging.basicConfig(level=logging.INFO, filename='file.log',	# log to this file (all data will be saved to this file)
+format='%(asctime)s %(message)s')                             # include timestamp
 logging.info('on 127.0.0.1 port 12345 Result from server is - '+result_string)	#saving the data in log file in this format
